@@ -33,6 +33,8 @@ export const AuthProvider: React.FC = ({ children }) => {
   //vamos criar um estado para nosso user :  se exsitr usuário , estou autenticado
   const [user, setUser] = useState<User | null>(null);
 
+  
+
 // assim que entrasmo na tela, fazer uma verificação: ptrovider useEffects
   // manter o usuário logado - verificar 
   //Para recuperar esses dados podemos criar um useEffect dentro do nosso componente AuthProvider
