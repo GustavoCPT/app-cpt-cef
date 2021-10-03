@@ -48,7 +48,7 @@ export default function GraphCef() {
     No options vamos adicionar o titulo e no data os valores do gráfico:*/
     const [optionsBar, setOptionsBar] = useState({
         title: 'Gráfico de Barras',
-      subtitle: 'Gráfico semestral',
+        subtitle: 'Gráfico Anual',
     });
     /*
     const [data, setData] = useState([
@@ -58,7 +58,7 @@ export default function GraphCef() {
         ['Vue', 50],
     ]);*/
     const [dataBar, setDataBar] = useState([
-        ['Meses', 'Receita', 'Despesa', 'Lucro'],
+        ['Meses', 'Receita1', 'Despesa', 'Lucro'],
         ['Jan', 1000, 400, 200],
         ['Fev', 1170, 460, 250],
         ['Mar', 660, 1120, 300],
@@ -70,56 +70,36 @@ export default function GraphCef() {
         ['Out', 660, 1120, 300],
         ['Nov', 1030, 540, 350],
         ['Dez', 660, 1120, 300],
-        
+
     ])
 
     return (
-        <div>
-
-            <div className="content-wrapper" style={{ background: 'white' }}>
-
-                {/* Main content */}
-                <section className="content">
-                    <div className="container-fluid">
-                        <div className="row" >
-                            <div className="col-12" >
 
 
-                        
-                                    <div style={{ display: "flex",  alignItems: 'center' }}>
+        <div style={{ display: "flex", alignItems: 'center' }}>
 
 
-                                        <Chart
-                                            width={'100%'}
-                                            height={'500px'}
-                                            chartType="Bar"
-                                            loader={<div>Loading Chart</div>}
-                                            data={dataBar}
-                                            options={{
-                                                // Material design options
-                                                chart: {
-                                                  title: 'Gráfico do DRE',
-                                                  subtitle: 'Análise anual',
-                                                },
-                                              }}
-                                            // For tests
-                                            rootProps={{ 'data-testid': '2' }}
-                                        />
-                                    </div>
-                            
-
-                            </div>
-                            {/* /.col */}
-                        </div>
-                        {/* /.row */}
-                    </div>
-                    {/* /.container-fluid */}
-                </section>
-                {/* /.content */}
-                {/* /.content-wrapper */}
-            </div>
-
+            <Chart
+                width={'100%'}
+                height={'500px'}
+                chartType="Bar"
+                
+                loader={<div>Carregado Chart</div>}
+                data={dataBar}
+                options={{
+                    // Material design options
+                    chart: {
+                        title: 'Gráfico do DRE',
+                        subtitle: 'Análise anual',
+                    },
+                    
+                    
+                }}
+                // For tests
+                rootProps={{ 'data-testid': '2' }}
+            />
         </div>
+
 
     )
 

@@ -40,16 +40,16 @@ function Lancamentos() {
                 </div>
                 <div className="eight wide column">
                   <div className="ui  block align-right">
-                    <button  className="ui positive ui labeled icon button btnreceita">
-                      <i className="" />
+                    <button  className="ui positive icon button btnreceita">
+                      
                       RECEITAS
                     </button>
-                    <button  className="ui negative  ui labeled icon button btndespesa">
-                      <i className="" />
+                    <button  className="ui negative   icon button btndespesa">
+                      
                       DESPESAS
                     </button>
-                    <button  className="ui purple  ui labeled icon button btninvestimento">
-                      <i className="" />
+                    <button  className="ui purple   icon button btninvestimento">
+                     
                       INVESTIMENTOS
                     </button>
                   </div>
@@ -82,10 +82,10 @@ function Lancamentos() {
             <div className="ui segment">
               <div className="ui grid">
                 <div className="sixteen wide column">
-                  <h2 className="ui horizontal ">
+                  
                     <ListDataCef />
-                  </h2>
-                  <table id="tabela_lancamentos" name="tabela_lancamentos" className="ui  large celled structured table" />
+                 
+                  
                 </div>
               </div>
             </div>

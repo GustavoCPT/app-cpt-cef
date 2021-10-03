@@ -133,17 +133,7 @@ export default function ListDataCef() {
     return (
         <div>
 
-            <div className="content-wrapper" style={{ background: 'white' }}>
-
-                {/* Content Header (Page header) */}
-               
-
-                {/* Main content */}
-                <section className="content">
-                    <div className="container-fluid">
-                        <div className="row">
-                            <div className="col-12">
-                                {/* /.card */}
+            
                                 <div className="card">
                                     <div className="card-header">
                                         <h3 className="card-title">Lançamentos</h3>
@@ -222,18 +212,8 @@ export default function ListDataCef() {
                                 </div>
                                 {/* /.card */}
                             </div>
-                            {/* /.col */}
-                        </div>
-                        {/* /.row */}
-                    </div>
-                    {/* /.container-fluid */}
-                </section>
-                {/* /.content */}
-                {/* /.content-wrapper */}
-            </div>
-
-        </div>
-
+                            
+                    
     )
 
 }
