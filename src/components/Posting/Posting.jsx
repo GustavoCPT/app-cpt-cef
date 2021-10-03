@@ -14,13 +14,10 @@ function Lancamentos() {
           <div className="column">
             <div className="clearfix">
               <div className="ui small buttons icon compact align-left">
-                <button id="btnLancamentos" className="ui blue right icon button">
-                  <i className="table icon" />
-                  ${'{'}Lancamentos{'}'}
-                </button>
+               
                 <div className="ui  right floated dropdown compact blue icon button">
                   <i className="help circle icon" />
-                  <span className="text">${'{'}Ajuda{'}'}</span>
+                  <span className="text">Ajuda</span>
                   <div className="menu">
                     <div data-value="ajuda_title_plano_conta_alterar" className="item"><i className="checkmark box icon" />  ${'{'}moduloPlanoConta.ajuda_title_plano_conta_alterar{'}'}</div>
                     <div data-value="ajuda_title_lancamento_realizar" className="item"><i className="checkmark box icon" />  ${'{'}moduloPlanoConta.ajuda_title_lancamento_realizar{'}'}</div>
@@ -35,26 +32,25 @@ function Lancamentos() {
                 <div className="eight wide column">
                   <div className="ui medium form">
                     <div className="inline field" style={{ marginBottom: 0 }}>
-                      <input id="mes_lancamento" placeholder className="somenteNumeros limitaNumCaracteres2" type="text" size={2} />
-                      <a className="ui blue tag label">${'{'}MES{'}'}</a>
+                     
                       <input id="ano_lancamento" placeholder className="somenteNumeros limitaNumCaracteres4" type="text" size={4} />
-                      <a className="ui blue tag label">${'{'}ANO{'}'}</a>
+                      <a className="ui blue tag label">ANO</a>
                     </div>
                   </div>
                 </div>
                 <div className="eight wide column">
                   <div className="ui  block align-right">
-                    <button id="btnAddReceita" className="ui positive ui labeled icon button btnreceita">
-                      <i className="plus icon" />
-                      ${'{'}RECEITAS{'}'}
+                    <button  className="ui positive ui labeled icon button btnreceita">
+                      <i className="" />
+                      RECEITAS
                     </button>
-                    <button id="btnAddDespesa" className="ui negative  ui labeled icon button btndespesa">
-                      <i className="plus icon" />
-                      ${'{'}DESPESAS{'}'}
+                    <button  className="ui negative  ui labeled icon button btndespesa">
+                      <i className="" />
+                      DESPESAS
                     </button>
-                    <button id="btnAddInvestimento" className="ui purple  ui labeled icon button btninvestimento">
-                      <i className="plus  icon" />
-                      ${'{'}INVESTIMENTOS{'}'}
+                    <button  className="ui purple  ui labeled icon button btninvestimento">
+                      <i className="" />
+                      INVESTIMENTOS
                     </button>
                   </div>
                 </div>

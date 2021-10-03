@@ -5,10 +5,10 @@ import api from '../../services/api';
 
 export default function List() {
 
-    
+
 
     const [listar, setListar] = useState([]);
-  
+
     useEffect(() => {
 
         ListarDados();
@@ -65,13 +65,10 @@ export default function List() {
 
                                     </div>
                                     {/* /.card-header */}
-                                    <div className="card-body">
+                                    <div className="card-body table-responsive p-0">
+                                        <table id="example1" className="table table-striped table-valign-middle">
 
-
-
-                                        <table id="example1" className="table table-bordered table-striped text-center">
-
-                                        <thead>
+                                            <thead>
                                                 <tr >
                                                     <th>ID</th>
                                                     <th>Nome</th>
@@ -79,9 +76,9 @@ export default function List() {
                                                     <th>Senha</th>
                                                     <th>Serial</th>
                                                     <th>Permissão</th>
-                                                    
+
                                                 </tr>
-                                                </thead>
+                                            </thead>
 
                                             <tbody>
                                                 {

@@ -63,7 +63,7 @@ export const AuthProvider: React.FC = ({ children }) => {
     console.log(response.data);
     
     if (response.data.success === 'Dados Incorretos!') {
-      alert('Ops! Dados Incorretos!');
+      alert('Ops! Dados Incorretos!\n' + "Insira uma senha válida");
     } else {
       //Precisamos guardar os dados retornados pela API 
       setUser(response.data.result[0]);
