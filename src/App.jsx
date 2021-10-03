@@ -13,9 +13,9 @@ function App() {
   return (
     <AuthProvider>
     <BrowserRouter>
-    <div className="wrapper">
+    
       <Routes />
-    </div>
+    
     </BrowserRouter>
     </AuthProvider>
   );
