@@ -43,7 +43,7 @@ const HeaderCef: React.FC = () => {
                             <li className="nav-item dropdown">
                                 <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" className="nav-link dropdown-toggle">Lançamentos</a>
                                 <ul aria-labelledby="dropdownSubMenu1" className="dropdown-menu border-0 shadow">
-                                    <li><a href="#" className="dropdown-item">Lançamento 1 </a></li>
+                                    <li><a href="/posting" className="dropdown-item">Lançamento 1 </a></li>
                                     <li><a href="#" className="dropdown-item">Lançamento 2 </a></li>
                                     
                                 </ul>
