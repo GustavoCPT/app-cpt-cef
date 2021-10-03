@@ -13,12 +13,12 @@ function CardPosting() {
       <section className="content">
         <div className="container-fluid">
           {/*Small boxes (Stat box)*/}
-          <div className="row p-5 ml-5">
-            <div className="col-lg-6 col-6">
+          <div className="row mt-3 p-3">
+            <div className="col-lg-6 col-12">
               {/*small box*/}
-              <div className="small-box bg-primary ml-5">
+              <div className="small-box bg-primary ">
                 <div className="inner">
-                  <h3>Lançamento 1</h3>
+                  <h4> <strong>  Empresa de Calçados </strong> </h4>
                   <p>Descrição</p>
                 </div>
                 <div className="icon">
@@ -29,11 +29,11 @@ function CardPosting() {
               </div>
             </div>
             {/*./col*/}
-            <div className="col-lg-6 col-6">
+            <div className="col-lg-6 col-12">
               {/*small box*/}
-              <div className="small-box disabled mr-5">
+              <div className="small-box disabled ">
                 <div className="inner">
-                  <h3>Lançamento 2 - em contrução</h3>
+                  <h5>Nome do lançamento - em contrução </h5>
                   <p>Descrição</p>
                 </div>
                 <div className="icon">
