@@ -1,7 +1,7 @@
 import React from 'react';
-//import ListDataCef from '../List/ListDataCef';
+import ListDataCef from '../List/ListDataCef';
 //import GraphCef from '../../components/Graph/GraphCef';
-//import ListDataCefSummary from '../../components/List/ListDataCefSummary';
+import ListDataCefSummary from '../List/ListDataCefSummary';
 
 
 function Lancamentos() {
@@ -71,7 +71,7 @@ function Lancamentos() {
               <div className="ui grid">
                 <div className="sixteen wide column">
                   
-                   
+                   <ListDataCefSummary />
                   
                 </div>
               </div>
@@ -87,7 +87,7 @@ function Lancamentos() {
               <div className="ui grid">
                 <div className="sixteen wide column">
                   <h2 className="ui horizontal ">
-                    
+                    <ListDataCef />
                   </h2>
                   <table id="tabela_lancamentos" name="tabela_lancamentos" className="ui  large celled structured table" />
                 </div>
