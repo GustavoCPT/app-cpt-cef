@@ -22,14 +22,17 @@ const HeaderCef: React.FC = () => {
         <div>
             <nav className="main-header navbar navbar-expand-md navbar-light navbar-white">
                 <div className="container">
-                    <NavLink to="/Home" className="navbar-brand">
-                        <img src="/dist/img/CEF.png" alt="CPT" className="brand-image " style={{}} />
-                        <span className="brand-text font-weight-light">CPT Softwares</span>
-                    </NavLink>
+                    
+                    
 
                     <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+
+                    <NavLink to="/Home" className="navbar-brand">
+                        <img src="/dist/img/CEF.png" alt="CPT" className="brand-image " style={{}} />
+                        <span className="brand-text font-weight-light">CPT Softwares</span>
+                    </NavLink>
 
                     <div className="collapse navbar-collapse order-3" id="navbarCollapse">
                         {/* Left navbar links */}
