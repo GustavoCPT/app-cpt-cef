@@ -40,7 +40,7 @@ const Login: React.FC = () => {
                         {/* temos um state: false e  de formulario null */}
                         <form action="../../index3.html" method="post">
                             <div className="input-group mb-3">
-                                <input type="email" onChange={e => setEmail(e.target.value)} className="form-control form-control" placeholder="Digite seu e-mail" />
+                                <input type="email" onChange={e => setEmail(e.target.value)} className="form-control" placeholder="Digite seu e-mail" />
                                 <div className="input-group-append">
                                     <div className="input-group-text">
                                         <span className="fas fa-envelope" />
@@ -48,7 +48,7 @@ const Login: React.FC = () => {
                                 </div>
                             </div>
                             <div className="input-group mb-3">
-                                <input type="password" onChange={e => setSenha(e.target.value)} className="form-control form-control" placeholder="Digite sua senha" />
+                                <input type="password" onChange={e => setSenha(e.target.value)} className="form-control" placeholder="Digite sua senha" />
                                 <div className="input-group-append">
                                     <div className="input-group-text">
                                         <span className="fas fa-lock" />
@@ -57,7 +57,7 @@ const Login: React.FC = () => {
                             </div>
                             <div className=" text-center mt-2 mb-1">
                                 <NavLink to="/" >
-                                    <button onClick={handleLogin} type="submit" className="btn btn-primary btn-block btn">Entrar</button>
+                                    <button onClick={handleLogin} type="submit" className="btn btn-primary btn-block">Entrar</button>
                                 </NavLink>
                             </div> 
                         </form>
