@@ -10,9 +10,7 @@ function User() {
     <div className="wrapper">
       <HeaderCef />
       <div className="content-wrapper">
-        <section class="content">
           <UserList />
-        </section>
       </div>
       <Footer />
     </div>

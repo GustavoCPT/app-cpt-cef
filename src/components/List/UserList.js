@@ -18,7 +18,7 @@ export default function UserList() {
         <div>
             {/* Content Header (Page header) */}
             <section className="content-header">
-                <div className="container-fluid">
+                <div className="container">
                     <div className="row mb-2">
                         <div className="col-sm-6">
 
@@ -35,7 +35,7 @@ export default function UserList() {
 
             {/* Main content */}
             <section className="content">
-                <div className="container-fluid">
+                <div className="container">
                     <div className="row">
                         <div className="col-12">
                             {/* /.card */}
