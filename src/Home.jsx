@@ -8,9 +8,14 @@ function Home() {
   return (
     <div className="wrapper">
       <HeaderCef />
-      <List />
+      <div className="content-wrapper">
+        <section class="content">
+          <List />
+        </section>
+      </div>
       <Footer />
     </div>
+
   );
 }
 

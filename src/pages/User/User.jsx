@@ -7,18 +7,16 @@ import HeaderCef from '../../components/HeaderCef/HeaderCef';
 function User() {
 
   return (
-    <div class="wrapper">
-      
+    <div className="wrapper">
       <HeaderCef />
-
-      <div >
-        <UserList />
+      <div className="content-wrapper">
+        <section class="content">
+          <UserList />
+        </section>
       </div>
-      
-      <div>
-        <Footer />
-      </div>
+      <Footer />
     </div>
+
   );
 }
 

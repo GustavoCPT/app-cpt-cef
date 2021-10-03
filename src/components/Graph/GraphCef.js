@@ -77,8 +77,6 @@ export default function GraphCef() {
 
 
         <div style={{ display: "flex", alignItems: 'center' }}>
-
-
             <Chart
                 width={'100%'}
                 height={'500px'}

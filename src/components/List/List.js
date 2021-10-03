@@ -34,7 +34,7 @@ export default function List() {
     return (
         <div>
 
-            <div className="content-wrapper">
+            
 
                 {/* Content Header (Page header) */}
                 <section className="content-header">
@@ -127,8 +127,6 @@ export default function List() {
                     {/* /.container-fluid */}
                 </section>
                 {/* /.content */}
-                {/* /.content-wrapper */}
-            </div>
 
         </div>
 

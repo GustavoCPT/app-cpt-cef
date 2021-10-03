@@ -5,7 +5,6 @@ function index() {
   return (
     
       <div >
-      <body style={{ background: 'white',  }} className="hold-transition  login-page ">
       <Login />
       </body>
     </div>

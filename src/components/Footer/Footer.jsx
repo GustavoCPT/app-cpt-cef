@@ -5,7 +5,6 @@ export class Footer extends Component {
         return (
             <div>
                 <footer className="main-footer">
-                    
                     <div className="float-right d-none d-sm-inline-block">
                         <b>Version</b> 1.0
                     </div>
