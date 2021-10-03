@@ -72,7 +72,7 @@ const HeaderCef: React.FC = () => {
                             </a>
                         </li>
 
-                        <li className="nav-item d-none d-sm-inline-block">
+                        <li className="nav-item ">
                             <li><NavLink to="/" onClick={handleLogout} className="nav-link">Sair</NavLink></li>
                         </li>
                     </ul>
