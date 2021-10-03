@@ -58,7 +58,7 @@ export default function GraphCef() {
         ['Vue', 50],
     ]);*/
     const [dataBar, setDataBar] = useState([
-        ['Meses', 'Receita1', 'Despesa', 'Lucro'],
+        ['Meses', 'Receita', 'Despesa', 'Lucro'],
         ['Jan', 1000, 400, 200],
         ['Fev', 1170, 460, 250],
         ['Mar', 660, 1120, 300],

@@ -64,7 +64,7 @@ const HeaderCef: React.FC = () => {
                     {/* Right navbar links */}
                     <ul className="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
                         <li className="nav-item d-none d-sm-inline-block">
-                            <li><NavLink to="/user" className="nav-link">Olá, </NavLink></li>
+                            <li><NavLink to="/user" className="nav-link">Olá, {user.nome}! </NavLink></li>
                         </li>
                         <li className="nav-item d-none d-sm-inline-block">
                             <a className="nav-link" data-widget="fullscreen" href="#" role="button">

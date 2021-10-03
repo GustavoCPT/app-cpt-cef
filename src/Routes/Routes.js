@@ -1,5 +1,4 @@
 import React, {useContext} from 'react';
-import {  Switch, Route } from 'react-router-dom';
 import SignRoutes from './SignRoutes';
 import OtherRoutes from './OtherRoutes';
 import AuthContext from '../components/Context/auth'

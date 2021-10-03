@@ -16,7 +16,7 @@ function Lancamentos() {
               <div className="ui small buttons icon compact align-left">
                
                 <div className="ui  right floated dropdown compact blue icon button">
-                  <i className="help circle icon" />
+                  
                   <span className="text">Ajuda</span>
                   <div className="menu">
                     <div data-value="ajuda_title_plano_conta_alterar" className="item"><i className="checkmark box icon" />  ${'{'}moduloPlanoConta.ajuda_title_plano_conta_alterar{'}'}</div>
