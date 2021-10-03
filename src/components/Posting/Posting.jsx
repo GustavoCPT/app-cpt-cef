@@ -1,6 +1,6 @@
 import React from 'react';
 import ListDataCef from '../List/ListDataCef';
-//import GraphCef from '../../components/Graph/GraphCef';
+import GraphCef from '../../components/Graph/GraphCef';
 import ListDataCefSummary from '../List/ListDataCefSummary';
 
 
@@ -108,6 +108,7 @@ function Lancamentos() {
                   <h2 className="ui horizontal color-header-text">
                     
                   </h2>
+                  <GraphCef />
                   
                 </div>
               </div>

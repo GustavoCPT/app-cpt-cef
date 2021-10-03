@@ -61,7 +61,7 @@ export default function List() {
                                 {/* /.card */}
                                 <div className="card">
                                     <div className="card-header">
-                                        <h3 className="card-title">Listar </h3>
+                                        <h3 className="card-title">List - lista de Clientes Cadastrados do CEF </h3>
 
                                     </div>
                                     {/* /.card-header */}
