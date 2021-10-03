@@ -11,7 +11,7 @@ function Posting() {
       <div className="container-fluid ">
 
         <div className="ui padded grid " id="controle-planilha">
-          <div className="row pl-2">
+          <div className="row pl-3">
             <div className="column">
               <div className="clearfix">
                 <div className="ui small buttons icon compact align-left">
@@ -82,9 +82,7 @@ function Posting() {
               <div className="ui segment">
                 <div className="ui grid">
                   <div className="sixteen wide column">
-                    <h2 className="ui horizontal color-header-text">
-
-                    </h2>
+                   
                     <GraphCef />
 
                   </div>
