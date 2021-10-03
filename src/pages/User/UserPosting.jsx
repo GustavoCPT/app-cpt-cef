@@ -10,7 +10,9 @@ function UserPosting() {
     <div class="wrapper">
 
     <HeaderCef />
+    <div className="content-wrapper">
     <Posting />
+    </div>
     <Footer />
     </div>
   );

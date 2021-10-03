@@ -19,13 +19,13 @@ const HeaderCef: React.FC = () => {
 
 
     return (
-        <div>
+       
             <nav className="main-header navbar navbar-expand-md navbar-light navbar-white">
                 <div className="container">
 
-                    <NavLink to="/" className="navbar-brand order-2 mt-1 mr-2 ">
-                        <img src="/dist/img/CEF.png" alt="CPT" className="brand-image " style={{}} />
-                        <span className="brand-text font-weight-light">CPT Softwares</span>
+                    <NavLink to="/" className="navbar-brand order-2 ">
+                        <img src="/dist/img/CEF.png" alt="CPT" className="brand-image "  />
+                        <span className="brand-text font-weight-light ">CPT Softwares</span>
                     </NavLink>
 
 
@@ -42,10 +42,10 @@ const HeaderCef: React.FC = () => {
 
 
                             <li className="nav-item ">
-                                <li><NavLink to="/" className="nav-link mb-2 mt-3">Home</NavLink></li>
+                                <li><NavLink to="/" className="nav-link ml-5 ">Home</NavLink></li>
                             </li>
 
-                            <li className="nav-item dropdown mb-2 mt-3">
+                            <li className="nav-item dropdown  ">
                                 <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" className="nav-link dropdown-toggle ">Lançamentos</a>
                                 <ul aria-labelledby="dropdownSubMenu1" className="dropdown-menu border-0 shadow  ">
                                     <li> <NavLink to="/posting" className="dropdown-item mt-2 mb-3">Lançamento 1</NavLink></li>
@@ -56,7 +56,7 @@ const HeaderCef: React.FC = () => {
                             </li>
 
                             <li className="nav-item">
-                                <li><NavLink to="/user" className="nav-link mb-2 mt-3">Dados do usuário</NavLink></li>
+                                <li><NavLink to="/user" className="nav-link ">Dados do usuário</NavLink></li>
                             </li>
                         </ul>
 
@@ -78,12 +78,6 @@ const HeaderCef: React.FC = () => {
                     </ul>
                 </div>
             </nav>
-            {/* /.navbar */}
-
-
-
-
-        </div>
 
     )
 

@@ -6,12 +6,12 @@ import CardPosting from '../../components/Posting/CardPosting'
 
 function Home() {
   return (
-    <div className="wrapper">
-      <HeaderCef />
-      <div className="content-wrapper">
-        <section class="content">
+   
+      <div className="wrapper">
+        <HeaderCef />
+        {/* Content Wrapper. Contains page content */}
+        <div className="content-wrapper">
         <CardPosting />
-        </section>
       </div>
       <Footer />
     </div>

@@ -7,54 +7,42 @@ import { NavLink } from 'react-router-dom'
 function CardPosting() {
   return (
 
-    <div>
+    <div className="content">
+      <div className="container">
+        {/*Small boxes (Stat box)*/}
+        <div className="row ">
+          <div className="col-lg-6 col-12 mt-3 p-3">
+            {/*small box*/}
+            <div className="small-box bg-primary ">
+              <div className="inner">
+                <h4> <strong>  Empresa de Calçados </strong> </h4>
+                <p>Descrição</p>
+              </div>
+              <div className="icon">
+                <i className="ion ion-stats-bars" />
+              </div>
+              <NavLink to="/posting" className="small-box-footer">Lançamento 1 <i className="fas fa-arrow-circle-right" /></NavLink>
 
-      {/* Main content */}
-      <section className="content">
-        <div className="container-fluid">
-          {/*Small boxes (Stat box)*/}
-          <div className="row mt-3 p-3">
-            <div className="col-lg-6 col-12">
-              {/*small box*/}
-              <div className="small-box bg-primary ">
-                <div className="inner">
-                  <h4> <strong>  Empresa de Calçados </strong> </h4>
-                  <p>Descrição</p>
-                </div>
-                <div className="icon">
-                  <i className="ion ion-stats-bars" />
-                </div>
-                 <NavLink to="/posting" className="small-box-footer">Lançamento 1 <i className="fas fa-arrow-circle-right" /></NavLink>
-                
-              </div>
             </div>
-            {/*./col*/}
-            <div className="col-lg-6 col-12">
-              {/*small box*/}
-              <div className="small-box disabled ">
-                <div className="inner">
-                  <h5>Nome do lançamento - em contrução </h5>
-                  <p>Descrição</p>
-                </div>
-                <div className="icon">
-                  <i className="ion ion-stats-bars" />
-                </div>
-                <a href="#" className="small-box-footer ">Lançamentos <i className="fas fa-arrow-circle-right" /></a>
-              </div>
-            </div>
-            {/*./col*/}
           </div>
+          {/*./col*/}
+          <div className="col-lg-6 col-12 mt-3 p-3">
+            {/*small box*/}
+            <div className="small-box disabled ">
+              <div className="inner">
+                <h5>Nome do lançamento - em contrução </h5>
+                <p>Descrição</p>
+              </div>
+              <div className="icon">
+                <i className="ion ion-stats-bars" />
+              </div>
+              <a href="#" className="small-box-footer ">Lançamentos <i className="fas fa-arrow-circle-right" /></a>
+            </div>
+          </div>
+          {/*./col*/}
         </div>
-        <section>
-        </section></section>
-
-
-    </div >
-
-
-
-
-
+      </div>
+    </div>
 
   );
 }

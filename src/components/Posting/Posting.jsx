@@ -7,7 +7,8 @@ import ListDataCefSummary from '../List/ListDataCefSummary';
 function Posting() {
   return (
 
-    <div>
+    <div className="content">
+      <div className="container">
 
       <div className="ui padded grid" id="controle-planilha">
         <div className="row">
@@ -115,6 +116,7 @@ function Posting() {
 
 
 
+    </div>
     </div>
 
 
