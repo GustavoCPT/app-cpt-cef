@@ -5,63 +5,31 @@ import api from '../../services/api';
 
 export default function List() {
 
-    let itemsToRender = [];
+    
 
     const [listar, setListar] = useState([]);
-    const [nome, setNome] = useState('');
-
-
+  
     useEffect(() => {
 
         ListarDados();
 
     }, []);
 
-    
 
     async function ListarDados() {
 
         //const response = await api.get('http://localhost/apiModelo/apireact/listar_clientes_react.php')
         const response = await api.get('/listar_clientes_react.php');
 
-
-        //setNome(response.data.resultado);
         console.log(response); //{data: {…}, status: 200, statusText: "OK", headers: {…}, config: {…}, …}
         console.log(response.data); //{success: true, resultado: Array(1)}
         console.log(response.data.resultado); // [{…}]
-        //console.log(response.data.resultado[0]); // {id: "1", nome: "leonardo", email: "leonardosolar@yahoo.com.br", senha: "123"}
-        //console.log(nome); //[{…}]
-        // console.log(listar[0]); // {id: "1", nome: "leonardo", email: "leonardosolar@yahoo.com.br", senha: "123"}
-        //console.log(listar[0].nome); //leonardo
-
-
 
         setListar(response.data.resultado);
 
         console.log(listar); //[{…}]
 
     }
-    /*
-            
-            const dados = '';
-            for (dados in itemsToRender) {
-               console.log(dados)
-            };
-            console.log(dados);
- 
-   */
-
-
-
-
-
-    //name[0].nome
-    //console.log(listar.response);
-
-
-    //{listar.map(item => <li>{item.nome}</li>)}
-
-
 
     return (
         <div>

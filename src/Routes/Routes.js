@@ -10,8 +10,8 @@ const Routes: React.FC = () => {
     console.log(signed);
    // qual é a stack de routes que será exibida?
    // se autenticado return as rotas se não o login
-   // return signed ? <OtherRoutes /> : <SignRoutes />;
-   return <OtherRoutes /> ;
+   return signed ? <OtherRoutes /> : <SignRoutes />;
+   //return <OtherRoutes /> ;
    };
    
    export default Routes;

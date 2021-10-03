@@ -61,15 +61,15 @@ export const AuthProvider: React.FC = ({ children }) => {
     const response = await api.post('/login.php', obj);
     console.log('-------Recuperar a resposta da API----------');
     console.log(response.data);
-
+    
     if (response.data.success === 'Dados Incorretos!') {
       alert('Ops! Dados Incorretos!');
     } else {
       //Precisamos guardar os dados retornados pela API 
       setUser(response.data.result[0]);
       //vamos adicionar nosso token no header das nossas chamadas pelo axios
-      api.defaults.headers.Authorization = `Bearer ${response.data.token}`
-      console.log(response.data.token);
+      //api.defaults.headers.Authorization = `Bearer ${response.data.token}`
+      //console.log(response.data.token);
       console.log('-----------------Logado!!!-------------------');
       console.log(response.data.result[0]);
       console.log(response);
@@ -78,7 +78,7 @@ export const AuthProvider: React.FC = ({ children }) => {
       localStorage.setItem('@App:user', JSON.stringify(response.data.result[0]));
       //https://dev.to/rafacdomin/autenticacao-no-react-com-context-api-e-hooks-4bia
       // o token já é uma string
-      localStorage.setItem('@App:token', response.data.token);
+      //localStorage.setItem('@App:token', response.data.token);
 
     }
 

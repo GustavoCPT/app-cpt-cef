@@ -10,7 +10,7 @@ function OtherRoutes() {
     return (
         <Switch >
             <Route path="/" exact component={Home} />
-            <Route path="/login" component={Login} />
+            
             <Route path="/user" component={User} />
             <Route path="/posting" component={UserPosting} />
             <Route component={() => <div>Page 404!</div>} />
