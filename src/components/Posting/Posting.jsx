@@ -7,8 +7,8 @@ import ListDataCefSummary from '../List/ListDataCefSummary';
 function Posting() {
   return (
 
-    <div className="content">
-      <div className="container">
+    <div className="content m-0 p-0 ">
+      <div className="container-fluid ml-2">
 
       <div className="ui padded grid" id="controle-planilha">
         <div className="row">
@@ -28,10 +28,10 @@ function Posting() {
                 </div>
               </div>
             </div>
-            <div className="ui segment" id="ui_data_ano_lancamentos">
+            <div className="ui segment " id="ui_data_ano_lancamentos">
               <div className="ui grid">
                 <div className="eight wide column">
-                  <div className="ui medium form">
+                  <div className="ui medium form ">
                     <div className="inline field" style={{ marginBottom: 0 }}>
                      
                       <input id="ano_lancamento" placeholder className="somenteNumeros limitaNumCaracteres4" type="text" size={4} />
