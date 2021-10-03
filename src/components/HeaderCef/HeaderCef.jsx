@@ -25,7 +25,7 @@ const HeaderCef: React.FC = () => {
 
                     <NavLink to="/" className="navbar-brand order-2 ">
                         <img src="/dist/img/CEF.png" alt="CPT" className="brand-image "  />
-                        <span className="brand-text font-weight-light mr-3 ">CPT Softwares</span>
+                        
                     </NavLink>
 
 

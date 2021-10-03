@@ -28,11 +28,12 @@ const Login: React.FC = () => {
     return (
 
         <div style={{ background: 'white' }} className=" login-page ">
-            <div class="login-box" style={{ marginBottom: 120 }}  >
+            <div class="login-box" style={{ marginBottom: 200 }}  >
                 {/* /.login-logo */}
                 
                 < div className="login-logo ">
                     <img style={{ height: 70 }} src="/dist/img/CEF.png" alt="CPT" className="brand-image center" />
+                    <h3 style={{ color: '#163484' }} >CPT Controle Econômico e Financeiro</h3>
                 </div>
                 <div className="card ">
                     <div className="card-body login-card-body">
@@ -57,7 +58,7 @@ const Login: React.FC = () => {
                             </div>
                             <div className=" text-center mt-2 mb-1">
                                 <NavLink to="/" >
-                                    <button onClick={handleLogin} type="submit" className="btn btn-primary btn-block">Entrar</button>
+                                    <button style={{ background: '#163484', color: 'white' }} onClick={handleLogin} type="submit" className="btn  btn-block">Entrar</button>
                                 </NavLink>
                             </div> 
                         </form>

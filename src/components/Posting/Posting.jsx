@@ -14,11 +14,11 @@ function Posting() {
           <div className="row pl-3">
             <div className="column">
               <div className="clearfix">
-                <div className="ui small buttons icon compact align-left">
+                <div className="ui small buttons icon compact align-left" >
 
-                  <div className="ui  right floated dropdown compact blue icon button">
+                  <div className="ui  right floated dropdown compact blue icon button" style={{ background: '#163484', color: 'white' }}>
 
-                    <span className="text">Ajuda</span>
+                    <span className="text" >Ajuda</span>
                     
                   </div>
                 </div>
@@ -29,8 +29,8 @@ function Posting() {
                     <div className="ui medium form ">
                       <div className="inline field" style={{ marginBottom: 0 }}>
 
-                        <input id="ano_lancamento" placeholder className="somenteNumeros limitaNumCaracteres4" type="text" size={4} />
-                        <a className="ui blue tag label">ANO</a>
+                        <input id="ano_lancamento" placeholder className="somenteNumeros limitaNumCaracteres4"  type="text" size={4} />
+                        <a className="ui  tag label" style={{ background: '#163484', color: 'white' }} >ANO</a>
                       </div>
                     </div>
                   </div>
