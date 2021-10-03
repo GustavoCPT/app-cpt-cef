@@ -27,8 +27,8 @@ const Login: React.FC = () => {
 
     return (
 
-        <div style={{ background: 'white', }} className="hold-transition  login-page ">
-            <div >
+        <div style={{ background: 'white' }} className="hold-transition  login-page ">
+            <div style={{ marginBottom: 100 }} >
                 {/* /.login-logo */}
                 < div className="login-logo mb-4">
                     <img style={{ height: 50 }} src="/dist/img/CEF.png" alt="CPT" className="brand-image center" />
