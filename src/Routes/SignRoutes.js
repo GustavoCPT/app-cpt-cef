@@ -5,9 +5,9 @@ import Login from '../components/Login/Login'
 
 function SignRoutes() {
 
-    React.useEffect(() => {
+    /* React.useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+      }, []);*/
 
 
     return (

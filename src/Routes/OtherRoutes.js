@@ -8,9 +8,9 @@ import UserPosting from '../pages/User/UserPosting'
 
 function OtherRoutes() {
 
-    React.useEffect(() => {
+   /* React.useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+      }, []);*/
 
     return (
         <Switch  >
