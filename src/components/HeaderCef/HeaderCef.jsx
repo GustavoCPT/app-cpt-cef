@@ -23,7 +23,7 @@ const HeaderCef: React.FC = () => {
             <nav className="main-header navbar navbar-expand-md navbar-light navbar-white">
                 <div className="container">
 
-                    <NavLink to="/Home" className="navbar-brand order-2 mt-1 mr-2 ">
+                    <NavLink to="/" className="navbar-brand order-2 mt-1 mr-2 ">
                         <img src="/dist/img/CEF.png" alt="CPT" className="brand-image " style={{}} />
                         <span className="brand-text font-weight-light">CPT Softwares</span>
                     </NavLink>

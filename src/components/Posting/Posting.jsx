@@ -4,7 +4,7 @@ import GraphCef from '../../components/Graph/GraphCef';
 import ListDataCefSummary from '../List/ListDataCefSummary';
 
 
-function Lancamentos() {
+function Posting() {
   return (
 
     <div>
@@ -121,4 +121,4 @@ function Lancamentos() {
   );
 }
 
-export default Lancamentos;
+export default Posting;
