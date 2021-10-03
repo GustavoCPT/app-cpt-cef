@@ -28,7 +28,7 @@ const Login: React.FC = () => {
     return (
 
         <div style={{ background: 'white' }} className=" login-page ">
-            <div class="login-box"  >
+            <div class="login-box" style={{ marginBottom: 120 }}  >
                 {/* /.login-logo */}
                 
                 < div className="login-logo ">

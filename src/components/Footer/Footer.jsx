@@ -5,9 +5,9 @@ export class Footer extends Component {
         return (
                 <footer className="main-footer ">
                     <div className="float-right d-none d-sm-inline-block">
-                        <b>Version</b> 1.0
+                    <small class="text-muted"><b>Version</b> 1.0</small>
                     </div>
-                    <strong>Copyright &copy; 2014-2021 CTP Softwares.</strong> All rights reserved.
+                    <small class="text-muted"> <strong>Copyright &copy; 2014-2021 CTP Softwares.</strong> All rights reserved.</small>
                 </footer>
         )
     }
