@@ -36,7 +36,7 @@ export default function ListDataCefSummary() {
             //console.log(response.data); //{success: true, resultado: Array(1)}
             //console.log(response.data.resultado); // [{…}]
 
-            
+
 
             var item = response.data.resultado;
             var item_2 = [];
@@ -49,32 +49,32 @@ export default function ListDataCefSummary() {
 
             item.forEach(element => {
                 const valor = element.DESPESA_RECEITA;
-                
-                if(valor>0){
+
+                if (valor > 0) {
                     console.log(element);
                 }
             });
 
-            
 
-                
 
-                //const income = transactionsAmounts.filter(value => value = 0)
-            
+
+
+            //const income = transactionsAmounts.filter(value => value = 0)
+
             //console.log(item[0]); //0: {tipo_conta: 'RECEITa', nome_conta: 'Juros recebidos', VALOR: '0', MES: '0', ANO: '2021'}
 
             //0: {tipo_conta: 'RECEITa', nome_conta: 'Juros recebidos', VALOR: '0', MES: '0', ANO: '2021'}
-           /* const dados = listar.map(item => {
-                console.log('-------dados------');
-                console.log(item.tipo_conta)
-                if(item.tipo_conta ==)
-            }
-                )*/
-            
+            /* const dados = listar.map(item => {
+                 console.log('-------dados------');
+                 console.log(item.tipo_conta)
+                 if(item.tipo_conta ==)
+             }
+                 )*/
 
-         //const dados2 = dados.reduce((accumulator, transaction) => accumulator + transaction, 0).toFixed(2)
-      
-           
+
+            //const dados2 = dados.reduce((accumulator, transaction) => accumulator + transaction, 0).toFixed(2)
+
+
 
 
 
@@ -120,20 +120,28 @@ export default function ListDataCefSummary() {
                             </tr>
                         </thead>
                         <tbody>
-                            {
-                                listar.map((item) => {
-                                    return (
 
-                                        <tr>
-                                            <td>
-                                                <i className="fa fa-arrow-circle-up fa-lg m-2" style={{ color: '#163484' }} />
-                                                <span className="">Receita Bruta</span>
-                                            </td>
-                                            
-                                        </tr>
-                                    )
-                                })
-                            }
+
+                            <tr>
+                                <td>
+                                    <i className="fa fa-arrow-circle-up fa-lg m-2" style={{ color: '#163484' }} />
+                                    <span className="">Receita Bruta</span>
+                                </td>
+                                <td>$100.000</td>
+                                <td>$200.000</td>
+                                <td>$200.000</td>
+                                <td>$100.000</td>
+                                <td>$200.000</td>
+                                <td>$200.000</td>
+                                <td>$100.000</td>
+                                <td>$200.000</td>
+                                <td>$200.000</td>
+                                <td>$100.000</td>
+                                <td>$200.000</td>
+                                <td>$200.000</td>
+
+                            </tr>
+
                             <tr>
                                 <td>
                                     <i className="fa fa-arrow-circle-down fa-lg m-2" style={{ color: 'red' }} />

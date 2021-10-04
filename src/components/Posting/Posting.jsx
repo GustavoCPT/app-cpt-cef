@@ -25,27 +25,29 @@ function Posting() {
             <div className="card">
               <div className="card-header border-0">
                 <div className="row">
-                  <div className="col-6">
+                  <div className="col-4">
 
                     <div>
-                      <div class="input-group input-group-sm">
+                      <form className="form-inline">
+                        <div className="form-group  ">
+    
+                          <input type="text"  className="form-control col-xs-2" style={{width:80 }} />
+                          <a class="btn btn-primary  btn-sm float-right mt-1 ml-2"  > <strong>Ano</strong></a>
+                        </div>
+                      </form>
 
-                     <input class="form" type="text" name="text" size={4} />
-                      <a class="btn  btn-sm float-le ml-1 " style={{ background: '#163484', color: 'white' }} >Ano</a>
-                       
-                      </div>
                     </div>
 
 
                   </div>
-                  
-                 
-                  <div className="col-6  ">
-                 
-                    <a class="btn  btn-sm float-right ml-1 mb-1" style={{ background: '#993399' , color: 'white' }}>Investimentos</a>
-                    <a class="btn  btn-sm float-right ml-1 mb-1" style={{ background: 'red' , color: 'white' }}>Depesas</a>
+
+
+                  <div className="col-8  ">
+
+                    <a class="btn  btn-sm float-right ml-1 mb-1" style={{ background: '#993399', color: 'white' }}>Investimentos</a>
+                    <a class="btn  btn-sm float-right ml-1 mb-1" style={{ background: 'red', color: 'white' }}>Depesas</a>
                     <a class="btn  btn-sm float-right ml-1 mb-1" style={{ background: '#163484', color: 'white' }} >Receitas</a>
-                  
+
                   </div>
 
 
