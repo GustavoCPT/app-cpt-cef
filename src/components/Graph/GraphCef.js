@@ -74,12 +74,12 @@ export default function GraphCef() {
     ])
 
     return (
-
-
-        <div style={{ display: "flex", alignItems: 'center' }}>
+        
+        
+        
             <Chart
                 width={'100%'}
-                height={'500px'}
+                height={'300px'}
                 chartType="Bar"
                 
                 loader={<div>Carregado Chart</div>}
@@ -96,8 +96,8 @@ export default function GraphCef() {
                 // For tests
                 rootProps={{ 'data-testid': '2' }}
             />
-        </div>
-
+        
+       
 
     )
 

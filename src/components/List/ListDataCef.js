@@ -108,28 +108,7 @@ export default function ListDataCef() {
         }
 
     }
-    /*
-            
-            const dados = '';
-            for (dados in itemsToRender) {
-               console.log(dados)
-            };
-            console.log(dados);
  
-   */
-
-
-
-
-
-    //name[0].nome
-    //console.log(listar.response);
-
-
-    //{listar.map(item => <li>{item.nome}</li>)}
-
-
-
     return (
         <div>
 
@@ -140,8 +119,8 @@ export default function ListDataCef() {
 
                                     </div>
                                     {/* /.card-header */}
-                                    <div className="card-body table-responsive p-0">
-                                        <table id="example1" className="table table-striped">
+                                    <div className="card-body table-responsive p-0 mb-4" style={{ height: 400  }}>
+                                        <table id="example1" className="table table-head-fixed table-striped">
                                             <thead>
                                                 <tr style={{ color: 'black',  }}>
                                                     <th style={{ width: 100 }}>TIPO DA CONTA</th>

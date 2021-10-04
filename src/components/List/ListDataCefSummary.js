@@ -93,17 +93,10 @@ export default function ListDataCefSummary() {
                                 <div className="card">
                                     <div className="card-header border-0">
                                         <h3 className="card-title">Demonstrativo de Resultado</h3>
-                                        <div className="card-tools">
-                                            <a href="#" className="btn btn-tool btn-sm">
-                                                <i className="fas fa-download" />
-                                            </a>
-                                            <a href="#" className="btn btn-tool btn-sm">
-                                                <i className="fas fa-bars " style={{ padding: 10 }} />
-                                            </a>
-                                        </div>
+                                        
                                     </div>
-                                    <div className="card-body table-responsive p-0">
-                                        <table className="table table-striped table-valign-middle">
+                                    <div className="card-body table-responsive p-0" >
+                                        <table className="table table-head-fixed table-striped">
                                             <thead>
                                                 <tr>
                                                     <th>Receita</th>
@@ -124,7 +117,7 @@ export default function ListDataCefSummary() {
                                             <tbody>
                                                 <tr>
                                                     <td>
-                                                    <i className="fa fa-arrow-circle-up fa-lg m-2" style={{ color: 'blue' }} />
+                                                    <i className="fa fa-arrow-circle-up fa-lg m-2" style={{ color: '#163484' }} />
                                                     <span className="">Receita Bruta</span>
                                                     </td>
                                                     <td>$100.000</td>
@@ -181,7 +174,7 @@ export default function ListDataCefSummary() {
                                                 <tr>
                                                     
                                                     <td>
-                                                    <i className="fa fa-rocket fa-lg m-2" style={{ color: 'green' }}/>
+                                                    <i className="fa fa-rocket fa-lg m-2" style={{ color: '#993399' }}/>
                                                     <span className="">Total de Investimentos</span>
                                                        
                                                     </td>
