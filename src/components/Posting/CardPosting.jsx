@@ -13,6 +13,7 @@ function CardPosting() {
         <div className="row ">
           <div className="col-lg-6 col-12 mt-3 p-3">
             {/*small box*/}
+            <NavLink to="/posting" className="small-box-footer">
             <div className="small-box bg-primary ">
               <div className="inner">
                 <h4> <strong>  Empresa de Calçados </strong> </h4>
@@ -21,24 +22,15 @@ function CardPosting() {
               <div className="icon">
                 <i className="ion ion-stats-bars" />
               </div>
-              <NavLink to="/posting" className="small-box-footer">Lançamento 1 <i className="fas fa-arrow-circle-right" /></NavLink>
-
-            </div>
+              
+              <a  className="small-box-footer ">Lançamentos <i className="fas fa-arrow-circle-right" /></a>
+              
+              </div>
+              </NavLink>
+            
           </div>
           {/*./col*/}
-          <div className="col-lg-6 col-12 mt-3 p-3">
-            {/*small box*/}
-            <div className="small-box disabled ">
-              <div className="inner">
-                <h5>Nome do lançamento - em contrução </h5>
-                <p>Descrição</p>
-              </div>
-              <div className="icon">
-                <i className="ion ion-stats-bars" />
-              </div>
-              <a href="#" className="small-box-footer ">Lançamentos <i className="fas fa-arrow-circle-right" /></a>
-            </div>
-          </div>
+        
           {/*./col*/}
         </div>
       </div>
